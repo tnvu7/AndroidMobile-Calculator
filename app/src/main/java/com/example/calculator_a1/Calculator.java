@@ -1,6 +1,5 @@
 package com.example.calculator_a1;
 
-
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -19,7 +18,6 @@ public class Calculator{
             int response = calculate();
             if (response == -999){
                 main.calText.append("= Not an Operator");
-                Log.d("push", "inside -999");
             }else{
                 main.calText.append("= " + String.valueOf(response));
             }
